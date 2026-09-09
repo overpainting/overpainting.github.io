@@ -1,0 +1,181 @@
+id,source_image,mask_image,prompt,detailed_prompt,fill_color,mask_type
+apple_fur_side,73b7a544f38a272b.jpg,8e39cf946f31ae2c.mask.png,Cover the apple in long purple fur,Cover the left side of the apple in long purple fur,"51,20,85",outline
+apple_net_detailedwhite,73b7a544f38a272b.jpg,3bb64305357b515c.mask.png,wrapped in a net of black twine,The apple is wrapped in a net of black twine,"49,35,35",onlywhite
+apple_net_detailedgrey,73b7a544f38a272b.jpg,f479d9a81841ef84.mask.png,wrapped in a net of black twine,The apple is wrapped in a net of black twine,"77,40,40",stategic
+apple_net_mostlywhite,73b7a544f38a272b.jpg,297d5062c1481748.mask.png,wrapped in a net of black twine,The apple is wrapped in a net of black twine,"23,24,24",outline
+apple_net_vaugegrey,73b7a544f38a272b.jpg,944a3f452d6df882.mask.png,wrapped in a net of black twine,The apple is wrapped in a net of black twine,"41,22,22",mostlygrey
+apple_net_fullgrey,73b7a544f38a272b.jpg,045cbc0d1a086388.mask.png,wrapped in a net of black twine,The apple is wrapped in a net of black twine,,onlygrey
+apple_net_mostlygrey,73b7a544f38a272b.jpg,f69d7c064d3f7f19.mask.png,wrapped in a net of black twine,The apple is wrapped in a net of black twine,"63,38,38",mostlygrey
+applebasket_fur,f917051e9f14fae0.jpg,68b449e789e0149d.mask.png,Covered in long purple fur,Cover all the apples in long purple fur,"37,16,67",outline
+darkalley_neon,5311462695bb6549.jpg,cf414c7e929570f7.mask.png,Make the pipes into glowing neon tubes,Make some of the pipes on the left wall into glowing neon tubes,"141,198,211",stategic
+ginger_facepaint_red,b76dc671a7d2b52f.jpg,bc4876c99d797105.mask.png,The girl has red facepaint,The girl has red facepaint around her eyes and making a spiral on her cheek,"193,26,20",stategic
+boards_polished,f1094a0875d38bff.jpg,8ee307c9ff2a270a.mask.png,The board should be shiny polished wood,Pick one board to be shiny polished wood,"82,53,40",onlywhite
+excavatorbucket_chrome,f8128237c7ce2e9e.jpg,00b9c6890e729837.mask.png,Clean the metal so it is as shiny as a chrome mirror,Clean the metal bucket so that it is as shiny as a chrome mirror,"128,122,121",outline
+offroadcar_paint_red,a455a8de9d519c9b.jpg,17bc2d5aee6ee738.mask.png,Bright red paint,Change the color of the car’s paint to bright red,"183,8,19",stategic
+smallpumpkins_pink,fbb2b68c344753d3.jpg,b9494ae5e988b7b8.mask.png,Pink-skinned pumpkins,Make five of the pumpkins pink-skinned,"202,69,108",outline
+mountainridge_flowers_blue,882d5a1ddab66bd7.jpg,268214bc51962454.mask.png,Small bright blue flowers growing on the ground,Sparse scattering of occasional small bright blue flowers growing on the ground,"136,138,154",outline
+baplane_checkrboard,96469cc77f10cccf.jpg,5c45e55288492147.mask.png,Paint the plane in a checkerboard pattern,Paint just the back half of the plane in a checkerboard pattern,"145,113,115",outline
+housewall_extend_stone,844a95656058b90a.jpg,646efa73f1cf4689.mask.png,Seamlessly extend the stone wall,Seamlessly extend the stone wall halfway up the white stucco,"126,131,140",outline
+redforest_snow_piles,c904a2dcd9c8aaea.jpg,9c266689e84ce159.mask.png,Piles of snow,"Piles of snow on the ground, but especially in the middle of the path","195,214,225",outline
+aerialtrees_orange,03aa68d3b7d1f340.jpg,e78facc911e11ed1.mask.png,Trees have changed to orange and red fall colors,"Trees in an unusual line have changed to orange and red fall colors, cutting diagonally across the image perpendicular to the road","134,58,32",outline
+leaningman_leather_coat,256a0fc6df95cb82.jpg,920f4456791910b3.mask.png,The man is wearing a leather coat,"The man is wearing a leather coat, open in the middle","38,44,48",outline
+sentil_alley_moss,94d0aca1b129029d.jpg,28fd8f6b4c96af7b.mask.png,Patches of moss and vines add realistic detail,The walls and curbs have patches of moss and vines that add realistic detail,"74,77,42",outline
+abandoned_room_cobwebs,ed5cb9b788d20db6.jpg,62e67c4d5febd524.mask.png,Dense cobwebs,Dense cobwebs have accumulated in the corners of the room,"76,71,68",outline
+ldb_eiffelpagoda_detailed,326ed30e63c04227.jpg,00a6cafed9d34fb9.mask.png,replace with a japanese pagoda,replace the eiffel tower with a japanese pagoda,"59,52,48",stategic
+ldb_eiffelpagoda_vauge,326ed30e63c04227.jpg,34091cae892e9032.mask.png,replace with a japanese pagoda,replace the eiffel tower with a japanese pagoda,"61,53,51",mostlygrey
+mountain_ocean_small,cc7690affbfa2f78.jpg,9633b4de67b5fd47.mask.png,distant ocean reflecting the sunset,replace the distant land with empty ocean across the horizon,"104,125,143",outline
+mountain_ocean_large,cc7690affbfa2f78.jpg,d8872897492000a4.mask.png,distant ocean reflecting the sunset,replace the distant land with empty ocean forming a bay,"84,90,99",outline
+bookstack_apple_fabric,c3e126ac17908b8f.jpg,d8d3f8100c0579c3.mask.png,intricate red and gold fabric padding,intricate red fabric padding is resting on top of the apple,"131,76,48",outline
+bookstack_bowl_fabric,c3e126ac17908b8f.jpg,cef406449c6598dd.mask.png,intricate red and gold fabric padding,intricate red fabric padding around the rim of the bowl,"124,49,31",outline
+bookstack_apple_fuzz,c3e126ac17908b8f.jpg,d8d3f8100c0579c3.mask.png,covered in silver fuzz,the top of the apple is covered in silver fuzz,"158,157,160",outline
+bookstack_bowl_fabric,c3e126ac17908b8f.jpg,cef406449c6598dd.mask.png,covered in silver fuzz,the rim of the bowl is covered in silver fuzz,"154,154,156",outline
+bookstack_bowl_gems,c3e126ac17908b8f.jpg,d96d920d627d579f.mask.png,dimond gems set into the surface,the bowl has a circle of dimond gems set into the surface,"169,166,162",outline
+bookstack_apple_gems,c3e126ac17908b8f.jpg,a597ce0d40e943db.mask.png,dimond gems set into the surface,the apple has dimond gems set randomly into the surface,"165,157,154",outline
+kitchen_backwall_tiles,b36df0d97342824a.jpg,2d880279c68c626f.mask.png,change surface to shiny blue tiles,change the backwall to shiny blue tiles,"33,91,179",stategic
+kitchen_behindstools_tiles,b36df0d97342824a.jpg,79dacc6da9caab83.mask.png,change surface to shiny blue tiles,change the wood backboard to shiny blue tiles,"37,68,169",outline
+kitchen_floor_tiles,b36df0d97342824a.jpg,279a75228ef7975f.mask.png,change surface to shiny blue tiles,change the floor to shiny blue tiles,"27,89,183",outline
+kitchen_trim_tiles,b36df0d97342824a.jpg,1ccc3d9626ec09ba.mask.png,change surface to shiny blue tiles,change the cabinents to shiny blue tiles,"29,60,162",outline
+ruggedwindow_planks_yellow,49b4d54f511e4b7f.jpg,3bc88db668bc41b4.mask.png,shiny new coat of yellow paint,give every-other board a shiny new coat of yellow paint,"222,223,33",stategic
+ruggedwindow_trim_yellow,49b4d54f511e4b7f.jpg,04c574a4de9eb6ff.mask.png,shiny new coat of yellow paint,give the window frames a shiny new coat of yellow paint,"220,178,20",outline
+stonewindow_bird_flames,e633132afc82dc14.jpg,11f78f277cd77613.mask.png,artistic flickering flames,the bird's wings have artistic flickering flames on the tips,"222,127,54",outline
+stonewindow_forest_flames,e633132afc82dc14.jpg,98f0692f22a1aa72.mask.png,artistic flickering flames,the forrest is consumed by artistic flickering flames,"215,116,36",outline
+stonewindow_right_vines,e633132afc82dc14.jpg,14d5e584305f76cf.mask.png,leafy green vines,leafy green vines are growing between the bricks on the right side,"36,46,8",outline
+stonewindow_top_vines,e633132afc82dc14.jpg,f03e9061f7a31b98.mask.png,leafy green vines,leafy green vines are growing down from the arch,"44,49,15",outline
+trevifountain_statue_gold,b60ed89a4c6f38db.jpg,41a2a2b7d50d67ca.mask.png,made of polished gold,the central statue is made of polished gold,"151,120,55",outline
+trevifountain_arch_gold,b60ed89a4c6f38db.jpg,bf0dcc0b61a1ca6c.mask.png,made of polished gold,the small pillars are made of polished gold,"191,166,83",outline
+trevifountain_rock_ferns,b60ed89a4c6f38db.jpg,821b3e744910bd9a.mask.png,growing leafy green ferns,some of the rocks are glowing leafy green ferns,"55,80,22",outline
+trevifountain_cap_ferns,b60ed89a4c6f38db.jpg,490a92225b2cdf51.mask.png,growing leafy green ferns,the pillar tops are growing leafy green ferns,"74,106,31",outline
+roundrock_left_moss,e326152994778e2f.jpg,d6c68153ce13454d.mask.png,grow green moss with small blue flowers,"grow green moss with small blue flowers on the left side of the rock, and a little on the ground below","72,111,35",outline
+roundrock_top_moss,e326152994778e2f.jpg,4fb547a10816fdea.mask.png,grow green moss with small blue flowers,"grow green moss with small blue flowers on the top of the rock, and a little on the ground below","80,108,32",outline
+roundrock_right_moss,e326152994778e2f.jpg,e505d15b6dcb7378.mask.png,grow green moss with small blue flowers,"grow green moss with small blue flowers on the top of the rock, and a little on the ground below","85,105,25",outline
+roundrock_spiral_paint,e326152994778e2f.jpg,a0e94ef575f23c57.mask.png,"shiny blue paint, still wet","a spiral is painted on the rock in shiny blue paint, still wet","26,95,168",onlywhite
+roundrock_left_paint,e326152994778e2f.jpg,cbc526be1193ba60.mask.png,"shiny blue paint, still wet","the top-left raised area of the rock is painted with shiny blue paint, still wet","24,126,204",stategic
+refinery_under_rust,fe55ea716b6f5d5e.jpg,81f9a23bf2bc4bbf.mask.png,the metal has rusted in the weather,the tube in front and some cones in the back have a the metal has rusted in the weather,"96,59,33",outline
+refinery_right_rust,fe55ea716b6f5d5e.jpg,8f4f876cbf982387.mask.png,the metal has rusted in the weather,the tube to the left and back right have a the metal has rusted in the weather,"102,65,45",outline
+refinery_large_window,fe55ea716b6f5d5e.jpg,33ee735c0a595c3f.mask.png,replace with a clear glass window,replace the space between the beams with a clear glass window,"78,98,113",outline
+refinery_railing_window,fe55ea716b6f5d5e.jpg,32bcff093a3bf257.mask.png,replace with a clear glass window,replace the railings with clear glass windows,"86,97,104",outline
+burger_fries_ketchup,e8de88513e7ca5e5.jpg,56947afee2d43338.mask.png,drips of ketchup,drips of ketchup across the fries,"190,49,31",outline
+burger_patty_ketchup,e8de88513e7ca5e5.jpg,4e14879c578907b9.mask.png,drips of ketchup,drips of ketchup off the burger bun,"185,58,46",outline
+burger_bun_frost,e8de88513e7ca5e5.jpg,313cfd8191c5142e.mask.png,icy blue frost,ice blue frost is covering the tob burger bun,"152,190,211",outline
+burger_lettuce_frost,e8de88513e7ca5e5.jpg,ecebf19f06be08c1.mask.png,icy blue frost,icy blue frost is covering the lettuce,"134,175,201",outline
+coffeepot_shallow_coffee,9076db918966ceb0.jpg,8982734b7606f954.mask.png,the cup is full of coffee,the cup has just a small amount of coffee in the bottom,"54,25,7",outline
+coffeepot_deep_coffee,9076db918966ceb0.jpg,6d089768aca51117.mask.png,the cup is full of coffee,the cup is full of coffee,"69,38,17",outline
+coffeepot_spout_steam,9076db918966ceb0.jpg,4202e1b1e2de5a69.mask.png,faint cloud of steam,a faint cloud of steam is emitted by the coffee pot,"221,211,200",outline
+coffeepot_table_steam,9076db918966ceb0.jpg,5f8f7fd9bc049da6.mask.png,faint cloud of steam,a faint cloud of steam covers the table like a low fog,"167,122,92",mostlygrey
+coffeepot_valve_steam,9076db918966ceb0.jpg,1a336bc1e2c15810.mask.png,faint cloud of steam,a faint cloud of steam issues from the check valve on the coffee pot,"213,208,203",mostlygrey
+coffeepot_ring_steam,9076db918966ceb0.jpg,c7f7a230af8f550b.mask.png,faint cloud of steam,a faint cloud of steam forming a smoke ring hovers above the cup,"128,111,97",outline
+coffeepot_entire_steam,9076db918966ceb0.jpg,759ae2ce0fda02bb.mask.png,faint cloud of steam,a faint cloud of steam fills the room,"144,106,73",mostlygrey
+ginger_neck_tiles,91320c73df6f15be.jpg,5c14ef105fcfb9a3.mask.png,shiny blue tile mosaic,the lower half of her face and neck is covered in shiny blue tile mosaic,"44,103,165",stategic
+ginger_forehead_tiles,91320c73df6f15be.jpg,a6c3b055475225df.mask.png,shiny blue tile mosaic,her forhead is covered in a shiny blue tile mosaic,"46,100,189",stategic
+ginger_face_flowers,91320c73df6f15be.jpg,a3776fa4c3961035.mask.png,layer of colorful flowers,her face is covered in a layer of colorful flowers,"130,104,87",stategic
+ginger_eyes_tiles,91320c73df6f15be.jpg,bb9ca59e39fbabda.mask.png,shiny blue tile mosaic,the area around her eyes is covered in a shiny blue tile mosaic,"30,122,190",stategic
+ginger_nose_tiles,91320c73df6f15be.jpg,f484d481c857b031.mask.png,shiny blue tile mosaic,her nose is covered in a shiny blue tile mosaic,"43,152,197",outline
+ginger_hairall_feathers,91320c73df6f15be.jpg,490d2c00de860e50.mask.png,hair made of black feathers,her entire hair is made of black feathers,"8,9,9",stategic
+ginger_hairtip_feathers,91320c73df6f15be.jpg,6a73152de62a3da7.mask.png,hair made of black feathers,the tips of her hair are made out of black feathers,"10,9,7",stategic
+ginger_eyes_tiles,91320c73df6f15be.jpg,bb9ca59e39fbabda.mask.png,layer of colorful flowers,the area around her eyes is covered in a layer of colorful flowers,"120,108,102",stategic
+darkwindow_long_lamp,9edd3589130e9ba0.jpg,53e3e780962130d5.mask.png,bright lamp hanging from the wall,bright lamp hanging from the wall,"18,18,17",mostlygrey
+orangebug_detailedhood_fur,cffa06cf6812c85d.jpg,cef649a260a24bcf.mask.png,covered in short purple fur,the hood is covered in short purple fur,"106,17,180",stategic
+orangebug_lefthood_fur,cffa06cf6812c85d.jpg,50e198775fc334a7.mask.png,covered in short purple fur,the left half of the hood is covered in short purple fur,"97,16,169",outline
+orangebug_tire_fur,cffa06cf6812c85d.jpg,d7da013dd1ebac20.mask.png,covered in short purple fur,the tires are covered in short purple fur,"66,26,100",outline
+logpile_top_mushrooms,ed0c8fc8acee03fe.jpg,dbb2d6edbcbdea9f.mask.png,growing red mushrooms,red mushrooms are growing on top of the top log,"185,48,35",outline
+logpile_left_mushrooms,ed0c8fc8acee03fe.jpg,1c535f54e44f41d2.mask.png,growing red mushrooms,red mushrooms are growing on the ground to the left,"154,52,41",outline
+sundial_face_sparks,b08450cea3180654.jpg,5d5c5b6ddd5d7431.mask.png,glowing orange and emitting sparks,the sundial face is glowing orange and emitting sparks,"208,133,59",stategic
+sundial_point_sparks,b08450cea3180654.jpg,cbaca5e025a36c52.mask.png,glowing orange and emitting sparks,the sundial point is glowing orange and emitting sparks,"188,129,56",stategic
+sundial_face_metal,b08450cea3180654.jpg,02912c300f9ea207.mask.png,made of polished gold metal,the sundial face is made of polished gold metal,"145,119,60",stategic
+sundial_around_gold,b08450cea3180654.jpg,d3b3c426292017a8.mask.png,made of polished gold metal,"the area around the sundial is made of polished gold metal, making a sun shape","166,141,74",outline
+partedit_leatherseat_shiny,98dc7bc709b3ca48.jpg,7843d2279dac5dbd.mask.png,shiny leather,change just the seat cushion to shiny leather,"47,44,43",outline
+partedit_horsehead_stripes,3ce0636ff4e9015d.jpg,3c5c28835e69b4d7.mask.png,zebra stripes,the head has zebrah stripes,"93,86,81",outline
+partedit_womanface_robot,e1e3f0bc8d999232.jpg,d44c60933cd382d9.mask.png,futuristic robot,she has the face of a futuristic robot,"73,77,78",outline
+pastries_filling_blue,f5b9b79858045887.jpg,2922e490d128ffcc.mask.png,blue filling,blue filling on some of the left pastries,"63,106,136",outline
+pastries_filling_orange,ef1c9ad16517fac1.jpg,5a2183f843445bd5.mask.png,sparkly orange filling,sparkly orange filling on some of the middle pastries,"232,129,23",outline
+dancingcouple_vertical_red,79d3970f1dcb71cf.jpg,6632e77a48f05a16.mask.png,strips of red fabric,strips of red fabric down the side of his suit and her dress,"152,25,30",outline
+dancingcouple_horizontal_red,79d3970f1dcb71cf.jpg,e8c201aeb87f3af5.mask.png,strips of red fabric,strips of red fabric on their shoulders and around their legs,"97,49,53",outline
+fisherwoman_stick_lamp,ee1fe7dee049b94a.jpg,7785d61a94f1dd88.mask.png,a brightly-lit lantern,a brightly-lit lantern hanging from the pole,"155,144,125",stategic
+fisherwoman_belt_lamp,ee1fe7dee049b94a.jpg,7843e20fd5a706a0.mask.png,a brightly-lit lantern,a brightly-lit lantern handing from her arm,"159,117,79",stategic
+birdboard_vines,ad313eb6973fecf7.jpg,4cdcb3e6ce08d05c.mask.png,covered in leafy vines with purple flowers,the white board is covered in thin leafy vines with purple flowers,"75,89,55",stategic
+bangkaboat_skyline,762e07cf4b781d84.jpg,9597cc1ed4510edc.mask.png,"Add a morning city skyline containing a harbor, walkways, and many tall office buildings","Add a morning city skyline containing a harbor, walkways, and many tall office buildings","96,107,121",stategic
+holdingphone_fire,3feadc4734071ba6.jpg,bc20e285bd19f1e9.mask.png,on fire,his phone is on fire,"247,174,9",mostlygrey
+oceanrocks_cake,d2a62cbd03df3b05.jpg,34e4357d7c4bc3bd.mask.png,make into chocolate cake with frosting,make the rocks into chocolate cake with frosting,"101,91,85",outline
+woodworker_mohawk,8dafb8c2c2df9eda.jpg,254b2bab2cb59fa1.mask.png,mohawk hairstyle in bright colors,she has a mohawk hairstyle in bright colors,"133,84,60",outline
+labworkers_whitehouse,ebd2b99bc8016fcc.jpg,d503060fe5ae2742.mask.png,add window with a view of the white house,add window with a view of the white house above the computer screen,"139,143,147",outline
+labworkers_miror,944b95e6ea51d17b.jpg,0e8dc81c139e415f.mask.png,make mirror with a reflection of the two woman operating the computer,make mirror with a reflection of the two woman operating the computer on their screen,"129,119,119",outline
+labworkers_jars,a5e6407986fe593f.jpg,fae7a3ef55bf25cd.mask.png,shelves with jars filled with candy,shelves with jars filled with candy replace the cabinet,"120,92,81",outline
+snorkling_bubbles,df8919f66e442aa1.jpg,0788b7a50d49cebc.mask.png,airbubbles,airbubbles,,onlygrey
+diamondbuilding_bricks,ba94f1c7c1114710.jpg,52408a59a07d9443.mask.png,brick wall,brick wall,"196,135,108",outline
+diamondbuilding_pool,6315d73f51e822b5.jpg,17114b7838698157.mask.png,swimming pool,swimming pool,"22,153,188",outline
+mountainsunset_noon,9adf73be91cfd285.jpg,de0db905dd353962.mask.png,clean noon sky,clean noon sky,"83,139,184",stategic
+pridekiss_greyscale,c930356ee24c4749.jpg,091ef86e78d8890d.mask.png,grayscale and darken,grayscale and darken just the background,"31,33,34",outline
+rocksitting_moss,dd9d6d5b7b6b3a27.jpg,1994662b250c5c61.mask.png,patches of fuzzy moss on the rock,"patches of fuzzy moss on the rock, to either side of her legs","45,46,12",outline
+rocksitting_removehair,ed70629050efd664.jpg,ad57118a8fe8fa20.mask.png,remove the hair,remove the hair in front of her face,"94,57,49",outline
+shrimp_fire,db344b6bdaa1c272.jpg,f88223f9a95c0b1f.mask.png,on fire,the shrimp is on fire,"222,109,37",outline
+sausage_ferrofluid,f3e96f8174db2598.jpg,b3fa402392b7921c.mask.png,"turned spiky, like ferrofluid","the sausage on the left has turned spiky, like ferrofluid","75,61,59",outline
+whitephone_woodstrips,79e791d5aa184adc.jpg,390781e13d31ed4d.mask.png,the wall has been altered with wavy decorative wooden strips,the wall has been altered with wavy decorative wooden strips,"113,84,63",outline
+mountainclimber_removehood,da29c87972d9bc5d.jpg,ba55a208d1be4cd7.mask.png,"not wearing a hood, dark curly hair","not wearing a hood, dark curly hair","42,30,27",outline
+angularvents_steam,5ba9ee380d2ada43.jpg,df8087f233798ce1.mask.png,venting a cloud of steam,venting a cloud of steam to the right,"127,148,181",mostlygrey
+whitephone_spheres,6e39b4fa316e1e26.jpg,9d3f52e41d7f5b1d.mask.png,decorative shiny gold spheres are attached to the wall,decorative shiny gold spheres are attached randomly to the wooden decoration,"155,118,60",stategic
+bookhand_finger_rings,6663c824e005a3b3.jpg,a3fdd03ab8d9158c.mask.png,matching rings,matching rings on all her other fingers,"153,141,139",onlywhite
+rustictable_copperband,78d00aa3584532d5.jpg,455e14e38759f600.mask.png,rustic copper band inlayed into the wood,"rustic copper band inlayed into the wood, along the edge","65,36,26",onlywhite
+bookhand_wrist_rings,6663c824e005a3b3.jpg,413e84ba1c928fa9.mask.png,matching rings,matching rings on her wrist and pointer finger,"137,119,115",onlywhite
+mountainlake_pineforest,e18ecde5c3f366f9.jpg,a65ddbc98102ee6e.mask.png,a dense forest of pine trees,a dense forest of pine trees on the other side of the lake,"54,61,45",mostlygrey
+emu_bald,3a4c28af83340e9b.jpg,8a65b262b1490155.mask.png,the emu is bald except for just a couple of feathers,the emu is bald on top except for just a couple of feathers,,onlygrey
+hedgehat_feather,a5c93e9d839dc239.jpg,9aac18b459c4c723.mask.png,a large red feather,a large red feather is in the front of her hat,"195,27,46",outline
+bookhand_extendleft_marble,6663c824e005a3b3.jpg,e497f8e483d97557.mask.png,extend the marble countertop seamlessly,"extend the marble countertop seamlessly, removing the pink book","186,185,190",onlywhite
+oceanside_right_interchange,113e8c4021ec923e.jpg,54e07c07fc6d67fe.mask.png,the highway has an interchange onto a bridge,"the highway has an interchange onto a bridge, into the ocean and up","63,97,108",onlywhite
+bookhand_extendup_marble,6663c824e005a3b3.jpg,03f3e5a582d72f61.mask.png,extend the marble countertop seamlessly,"extend the marble countertop seamlessly, removing the books near the top","188,191,195",stategic
+oceanside_left_interchange,113e8c4021ec923e.jpg,a384e18124326427.mask.png,the highway has an interchange onto a bridge,"the highway has an interchange onto a bridge, through the hills to the left","109,99,88",onlywhite
+mountainbench_two_trail,5f7263e431e3e969.jpg,00d620ecaba67150.mask.png,the dirt trail continues,"the dirt trail continues to the left, along the bush and the edge of the hill","119,103,74",outline
+mountainbench_one_trail,5f7263e431e3e969.jpg,8508a4a164daf21f.mask.png,the dirt trail continues,"the dirt trail continues to the left, along the bush","142,116,85",stategic
+mountainbench_center_pine,5f7263e431e3e969.jpg,610cac51f1b3f54f.mask.png,a scraggly pine tree,a scraggly pine tree to the left of the bench,"37,45,30",stategic
+cottoncandy_blue,2d00f2fff51f61a6.jpg,f53701d367ac9b55.mask.png,some of the cotton candy is blue,random patches of the cotton candy are blue,"135,190,209",outline
+shoetying_leftleg_shave,276c28f4fa176dd4.jpg,b13a34fd67fee326.mask.png,shave his leg,shave his left leg,"152,118,93",outline
+shoetying_rightleg_shave,276c28f4fa176dd4.jpg,bf1989f3359e8bb2.mask.png,shave his leg,shave his right leg,"185,187,188",outline
+firepit_ring_gold,8b09d7f9a357a372.jpg,97f115af53fb8bd8.mask.png,a magic golden ring,a magic golden ring on the log in the middle of the fire,"168,119,59",outline
+mountainbench_high_glacier,5456d18a485cd263.jpg,885c8ffb3c23aede.mask.png,a glacier moving down the valley,a glacier moving down the leftmost valley,"206,211,216",stategic
+mountainbench_low_glacier,5456d18a485cd263.jpg,d6f4f0a75ab8f977.mask.png,a glacier moving down the valley,a glacier moving down the midde valley,"209,225,238",outline
+greategret_crest,37d1e9484028e3f0.jpg,5e0f658676a4c1fc.mask.png,the bird has a feathery crest,the bird has a feathery crest,"189,196,188",onlywhite
+flowercloth_daisy,35aa2a844459c65e.jpg,7191b981f2a13860.mask.png,a huge daisy,a huge daisy on the left,"178,149,100",stategic
+flowercloth_rose,87bd335512f31f97.jpg,066046fcbf3d446a.mask.png,a red rose,a red rose in the lower-right,"139,7,9",outline
+flowercloth_lily,a0cf90afd6d0cd37.jpg,6cc66c98eb36a07c.mask.png,a white lily,a white lily between the daisy and rose,"205,203,176",outline
+whitehouse_left_vines,90130e95429465b1.jpg,f6612a9f35d478cb.mask.png,dark green leafy vines,dark green leafy vines down the left side of the house,"38,49,25",outline
+whitehouse_right_vines,90130e95429465b1.jpg,5ee37d3f4a5a485b.mask.png,dark green leafy vines,dark green leafy vines down the right side of the house,"30,42,16",outline
+duckpond_big_lilypads,5c3df17db2a757c6.jpg,63d5a28d24137c7f.mask.png,more bright green lily pads on the water,two more clusters of bright green lily pads on the water,"94,157,62",outline
+duckpond_small_lilypads,5c3df17db2a757c6.jpg,dc5582dfe471b993.mask.png,more bright green lily pads on the water,two more clusters of bright green lily pads on the water,"64,175,77",outline
+duckpond_side_carp,5c3df17db2a757c6.jpg,599cdf35c41ec056.mask.png,bright orange and white carp just barely visible under the water,"three bright orange and white carp just barely visible under the water, in front of the duck on either side","160,86,52",outline
+duckpond_left_carp,5c3df17db2a757c6.jpg,29b9c6204e5f965e.mask.png,bright orange and white carp just barely visible under the murky water,"four bright orange and white carp just barely visible under the murky water, around the leftmost lily pads","151,100,51",outline
+fudge_balls_gold,6a3e1979d7f9a312.jpg,cdf966545d992749.mask.png,polished gold plastic balls,"two additional polished gold plastic balls around the left fudge, one next to the fudge on the right","147,101,41",onlywhite
+bigpumpkins_center_smile,7c2c4e813084d8d9.jpg,c64148c6e41da8af.mask.png,carved jack-o-lantern,carved jack-o-lantern on the middle pumpkin,"204,137,90",onlywhite
+bigpumpkins_left_smile,7c2c4e813084d8d9.jpg,7e4797168506a7e4.mask.png,carved jack-o-lantern,carved jack-o-lantern on the bottom-left pumpkin,"177,86,7",onlywhite
+motorcyclesidecar_side_hedge,38b526e383d33e72.jpg,a2706758235dece5.mask.png,green leafy hedge,green leafy hedge on either side of the motorcycle,"63,85,32",outline
+motorcycle_back_hedge,38b526e383d33e72.jpg,e124bf54bfad35c9.mask.png,green leafy hedge,green leafy hedge above the retaining walls in the back,"61,72,35",outline
+oldcamera_rust,7847528b662db848.jpg,8ab7345bbdc6cd9c.mask.png,metal is starting to rust,metal is starting to rust around the edges of the knobs and the bottom of the frame,,onlygrey
+redflowers_yellow,beeb929f06158de2.jpg,f944a5040cb200f4.mask.png,some of the flowers have turned bright yellow,every other flower petal has turned bright yellow,,onlygrey
+hillsidetown_snow,2ce88a76a2b04dc0.jpg,cd6e81e0e9b1ee07.mask.png,patches of snow melting,"patches of snow melting on the hill above, near the top, on flat areas, and in the shadows","212,205,197",outline
+cameratable_croissant,b76b0e640afe2beb.jpg,8285a9a667c81e05.mask.png,a plate with a croissant,a plate with a croissant is just to the right of the coffee,"185,122,62",outline
+ipadwoman_scarf_yellow,50d3d914fe329c5e.jpg,857b747f92edfa72.mask.png,a bright yellow scarf,a bright yellow scarf under her collar and hanging down in front,"208,193,43",outline
+holdingtesttube_smoke,d8720b3566b0fb8c.jpg,4b00e0da14bcea75.mask.png,the test tube is bubblng and smoking,the test tube is bubblng and smoking,"189,210,219",mostlygrey
+concretearches_banners,5873a87f97cbf2fa.jpg,66b537d8fc0fe839.mask.png,colorful cloth banners,colorful cloth banners handing randomly from the arches,"116,95,92",stategic
+tulips_gold,9edf9e8d0b00d50c.jpg,6960eb76003745e6.mask.png,plated in shiny gold metal,half the tulips are plated in shiny gold metal,"152,109,28",outline
+treebranch_skyscraper,b5c4f924f257ef9c.jpg,7947253e5de46483.mask.png,skyscraper in the background,skyscraper in the background behind the trees,"105,143,180",mostlygrey
+epimedium_frost,8eb421fae88cf7eb.jpg,6902a76d64746ea6.mask.png,frozen ice and frost,water drops frozen into ice and frost on the leaf edges,"157,169,171",outline
+mosaicgrass_sunflowers,d874ce71357d8b75.jpg,38b32a59fba65f45.mask.png,sunflowers from above,sunflowers from above scattered,"125,119,45",mostlygrey
+brickbuilding_thin_pipes,3d04900205579e73.jpg,ecdb4fcedadc6fca.mask.png,rickety industrial piping,rickety industrial piping down the corner of the building and connecting across,"110,101,93",onlywhite
+bluelake_extend,b77905b7b69f0452.jpg,2c4cea54943c1edf.mask.png,"extend the lake, bright blue water reflecting the sky","the lake has been filled more, bright blue water reflecting the sky","8,188,221",outline
+brickbuilding_think_pipes,3d04900205579e73.jpg,26105827aff458ca.mask.png,rickety industrial piping,"rickety industrial piping horizontal above and below the windows, running into them","84,76,71",onlywhite
+brickbuilding_scattered_flowerboxes,3d04900205579e73.jpg,2f522d0ad22ffd56.mask.png,flower boxes,flower boxes on three of the windows,"113,100,76",stategic
+brickbuilding_mural,3d04900205579e73.jpg,203e1cca8e6d6ff4.mask.png,weathered flower mural,weathered flower mural down the corner,"99,82,65",outline
+oceansunset_volcanicpeak,bee6242b811edb58.jpg,f687a2c80d17ba8d.mask.png,distant volcanic peak with clouds in front,distant volcanic peak with clouds in front in the distance,"66,86,100",stategic
+brickbuilding_upper_flowerboxes,3d04900205579e73.jpg,b4216ff42ef0efca.mask.png,flower boxes,flower boxes on all the upper-level windows,"88,81,61",stategic
+hotspring_geyser,1796a5b3a819e348.jpg,a344d845dd31c333.mask.png,"geyser of water erupting, creating a cloud of steam","geyser of water erupting, creating a cloud of steam","146,162,168",stategic
+discoball_sparks,24c19d14feeedea0.jpg,4847f35aeabcf086.mask.png,"glowing red and yellow, with flashes and sparkles","disco balls glowing red and yellow, with flashes and sparkles","223,90,35",outline
+nervousman_shave,d3e9aa10856381a4.jpg,37bba75350eb7416.mask.png,shave off his beard,shave off his beard but leave is mustache,"154,127,115",outline
+weatheredbuilding_corner_repair,883602fb162b95f0.jpg,8d55e4f62583df2a.mask.png,repair the paint,repair the paint only on the corner,"147,84,45",mostlygrey
+oceansteps_wooden,d7b688f57be57155.jpg,b7dc139f035dbadf.mask.png,wooden boards make a walkway and dock,wooden boards make a walkway and dock,"166,162,152",outline
+weatheredbuilding_above_repair,883602fb162b95f0.jpg,85b6eda844b26552.mask.png,repair the paint,repair the paint only above the windows,"160,113,73",mostlygrey
+baldman_hair,48c58007bed4361f.jpg,e6b990a02fca3123.mask.png,stylish long hair,stylish long hair down the right side of his head,"15,14,14",outline
+oceancliffs_arch,9935e0d1298f6802.jpg,832d315dad4ccc6a.mask.png,natural stone arch extending out from the cliff face,natural stone arch extending out from the cliff face,"60,96,102",outline
+grassyslope_stream,212a8735dc8ad5ce.jpg,ff16b7287ac66088.mask.png,"a stream running down the mountainside, flanked by bushes and trees","a stream running down the near mountainside, flanked by bushes and trees","106,104,79",outline
+icecream_chocolate,a2679e0755e31bcf.jpg,2bcfac33a752126f.mask.png,chocolate flavored with brownie chunks,chocolate flavored with brownie chunks on the left,"155,143,137",outline
+lighthouse_beam,260291d9ad730186.jpg,df8aeaf865e38e46.mask.png,shooting a magical beam of light,shooting a magical beam of light aims out across the ocean,"154,189,200",outline
+icecream_strawberry,32ce4a175409fc34.jpg,a94c07d2c4293403.mask.png,strawberry flavored,strawberry flavored on the right,"196,38,49",outline
+bogota_river,bf9ed2d294dce7f7.jpg,a0998c41d7ab6910.mask.png,a river cuts through the city,a river cuts through the city,"75,106,120",outline
+closeupman_stripes_rainbow,517c7dbade7c707b.jpg,248bba1062aadafa.mask.png,rainbow facepaint stripes,rainbow facepaint stripes,"113,83,65",outline
