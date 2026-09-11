@@ -11,6 +11,7 @@
   let lightboxTarget = null;
   let selectedLightboxView = null;
   let returnFocus = null;
+  const visibleImages = new Set();
 
   const lightbox = document.createElement("div");
   lightbox.className = "result-lightbox";
@@ -78,20 +79,34 @@
     returnFocus = null;
   };
 
+  const updateImage = (image, view) => {
+    const src = image.dataset[view];
+    const alt = image.dataset[`${view}Alt`];
+    if (src && image.dataset.lightboxView !== view) {
+      image.src = src;
+      image.dataset.lightboxView = view;
+    }
+    if (alt) image.alt = alt;
+  };
+
   const updateView = (view) => {
     grid.classList.remove("view-original", "view-edited", "view-mask");
     grid.classList.add(`view-${view}`);
-
-    images.forEach((image) => {
-      const src = image.dataset[view];
-      const alt = image.dataset[`${view}Alt`];
-      if (src) {
-        image.src = src;
-        image.dataset.lightboxView = view;
-      }
-      if (alt) image.alt = alt;
-    });
+    visibleImages.forEach((image) => updateImage(image, view));
   };
+
+  const imageObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        visibleImages.add(entry.target);
+        updateImage(entry.target, keyOverride || selectedView);
+      } else {
+        visibleImages.delete(entry.target);
+      }
+    });
+  });
+
+  images.forEach((image) => imageObserver.observe(image));
 
   const updateButtons = () => {
     buttons.forEach((button) => {
