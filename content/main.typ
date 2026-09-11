@@ -26,7 +26,7 @@
   html.h1[Overpainting]
   html.p(class: "subtitle")[Localized Context-aware Diffusion Image Editing]
   html.div(class: "pills", {
-    pill("arXiv", note: "Coming soon")
+    pill("arXiv", href: "https://arxiv.org/abs/2609.10811", target: "_self")
     pill("Code", note: "Coming soon")
     pill("Model", note: "Coming soon")
     pill("Test set", href: "https://github.com/overpainting/overpainting-evaluation/blob/main/testset/cases.csv")
