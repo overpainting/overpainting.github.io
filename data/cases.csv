@@ -28,7 +28,7 @@ mountain_ocean_large,cc7690affbfa2f78.jpg,d8872897492000a4.mask.png,distant ocea
 bookstack_apple_fabric,c3e126ac17908b8f.jpg,d8d3f8100c0579c3.mask.png,intricate red and gold fabric padding,intricate red fabric padding is resting on top of the apple,"131,76,48",outline
 bookstack_bowl_fabric,c3e126ac17908b8f.jpg,cef406449c6598dd.mask.png,intricate red and gold fabric padding,intricate red fabric padding around the rim of the bowl,"124,49,31",outline
 bookstack_apple_fuzz,c3e126ac17908b8f.jpg,d8d3f8100c0579c3.mask.png,covered in silver fuzz,the top of the apple is covered in silver fuzz,"158,157,160",outline
-bookstack_bowl_fabric,c3e126ac17908b8f.jpg,cef406449c6598dd.mask.png,covered in silver fuzz,the rim of the bowl is covered in silver fuzz,"154,154,156",outline
+bookstack_bowl_fuzz,c3e126ac17908b8f.jpg,cef406449c6598dd.mask.png,covered in silver fuzz,the rim of the bowl is covered in silver fuzz,"154,154,156",outline
 bookstack_bowl_gems,c3e126ac17908b8f.jpg,d96d920d627d579f.mask.png,dimond gems set into the surface,the bowl has a circle of dimond gems set into the surface,"169,166,162",outline
 bookstack_apple_gems,c3e126ac17908b8f.jpg,a597ce0d40e943db.mask.png,dimond gems set into the surface,the apple has dimond gems set randomly into the surface,"165,157,154",outline
 kitchen_backwall_tiles,b36df0d97342824a.jpg,2d880279c68c626f.mask.png,change surface to shiny blue tiles,change the backwall to shiny blue tiles,"33,91,179",stategic
@@ -72,7 +72,7 @@ ginger_eyes_tiles,91320c73df6f15be.jpg,bb9ca59e39fbabda.mask.png,shiny blue tile
 ginger_nose_tiles,91320c73df6f15be.jpg,f484d481c857b031.mask.png,shiny blue tile mosaic,her nose is covered in a shiny blue tile mosaic,"43,152,197",outline
 ginger_hairall_feathers,91320c73df6f15be.jpg,490d2c00de860e50.mask.png,hair made of black feathers,her entire hair is made of black feathers,"8,9,9",stategic
 ginger_hairtip_feathers,91320c73df6f15be.jpg,6a73152de62a3da7.mask.png,hair made of black feathers,the tips of her hair are made out of black feathers,"10,9,7",stategic
-ginger_eyes_tiles,91320c73df6f15be.jpg,bb9ca59e39fbabda.mask.png,layer of colorful flowers,the area around her eyes is covered in a layer of colorful flowers,"120,108,102",stategic
+ginger_eyes_flowers,91320c73df6f15be.jpg,bb9ca59e39fbabda.mask.png,layer of colorful flowers,the area around her eyes is covered in a layer of colorful flowers,"120,108,102",stategic
 darkwindow_long_lamp,9edd3589130e9ba0.jpg,53e3e780962130d5.mask.png,bright lamp hanging from the wall,bright lamp hanging from the wall,"18,18,17",mostlygrey
 orangebug_detailedhood_fur,cffa06cf6812c85d.jpg,cef649a260a24bcf.mask.png,covered in short purple fur,the hood is covered in short purple fur,"106,17,180",stategic
 orangebug_lefthood_fur,cffa06cf6812c85d.jpg,50e198775fc334a7.mask.png,covered in short purple fur,the left half of the hood is covered in short purple fur,"97,16,169",outline
