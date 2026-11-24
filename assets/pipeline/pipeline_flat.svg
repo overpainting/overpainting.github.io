@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 236.25 147.17">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #6dbe45;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-width: .8px;
+      }
+
+      .cls-2, .cls-4 {
+        stroke: #020202;
+      }
+
+      .cls-5, .cls-3, .cls-6, .cls-7, .cls-8, .cls-4, .cls-9, .cls-10, .cls-11 {
+        fill: none;
+      }
+
+      .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-11 {
+        stroke-width: 2px;
+      }
+
+      .cls-5, .cls-7 {
+        stroke: #6dbe45;
+      }
+
+      .cls-5, .cls-9, .cls-11 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-12 {
+        fill: #abffcc;
+      }
+
+      .cls-13, .cls-14 {
+        font-family: TeXGyreTermes-Regular, 'TeX Gyre Termes';
+      }
+
+      .cls-13, .cls-15 {
+        font-size: 7px;
+      }
+
+      .cls-14 {
+        font-size: 5px;
+      }
+
+      .cls-3, .cls-10 {
+        stroke: #231f20;
+      }
+
+      .cls-15 {
+        font-family: TeXGyreTermes-Italic, 'TeX Gyre Termes';
+        font-style: italic;
+      }
+
+      .cls-6 {
+        stroke: #94e8ff;
+      }
+
+      .cls-16 {
+        letter-spacing: 0em;
+      }
+
+      .cls-17 {
+        letter-spacing: 0em;
+      }
+
+      .cls-18 {
+        fill: #020202;
+      }
+
+      .cls-19 {
+        fill: #e94895;
+      }
+
+      .cls-20 {
+        letter-spacing: 0em;
+      }
+
+      .cls-21 {
+        letter-spacing: 0em;
+      }
+
+      .cls-8, .cls-11 {
+        stroke: #ffba00;
+      }
+
+      .cls-4 {
+        stroke-width: .25px;
+      }
+
+      .cls-9 {
+        stroke: #e94895;
+      }
+
+      .cls-22 {
+        letter-spacing: -.1em;
+      }
+
+      .cls-23 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-24 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-25 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-26 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-27 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-28 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-29 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-30 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-31 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-32 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-33 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-34 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-35 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-36 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-37 {
+        fill: #ffba00;
+      }
+
+      .cls-38 {
+        fill: #e0e0e0;
+      }
+
+      .cls-39 {
+        letter-spacing: .02em;
+      }
+
+      .cls-40 {
+        letter-spacing: .02em;
+      }
+
+      .cls-41 {
+        letter-spacing: .02em;
+      }
+
+      .cls-42 {
+        fill: #94e8ff;
+      }
+    </style>
+    <image id="image" width="1024" height="1024" xlink:href="../../../Overpainting-cvpr27/figures/pipeline/source.webp"/>
+    <image id="image-2" width="1024" height="1024" xlink:href="../../../Overpainting-cvpr27/figures/pipeline/edited.webp"/>
+  </defs>
+  <text class="cls-13" transform="translate(70.64 18.5)"><tspan x="0" y="0">Q</tspan><tspan class="cls-33" x="5.05" y="0">w</tspan><tspan x="9.9" y="0">en 3</tspan></text>
+  <g>
+    <rect class="cls-12" x="58.71" y="24.32" width="47.36" height="8.68" rx="3.5" ry="3.5"/>
+    <polygon class="cls-12" points="102.51 33 106.07 37.99 106.07 29.49 102.51 33"/>
+  </g>
+  <g>
+    <rect class="cls-42" x="56.96" y="35.09" width="47.33" height="14.06" rx="3.5" ry="3.5" transform="translate(161.25 84.25) rotate(-180)"/>
+    <polygon class="cls-42" points="60.46 49.15 56.96 54.34 56.96 43.97 60.46 49.15"/>
+  </g>
+  <text class="cls-14" transform="translate(61.78 30.03)"><tspan x="0" y="0">Sug</tspan><tspan class="cls-23" x="7.78" y="0">g</tspan><tspan class="cls-20" x="10.15" y="0">e</tspan><tspan class="cls-31" x="12.38" y="0">s</tspan><tspan class="cls-16" x="14.25" y="0">t edits…</tspan></text>
+  <text class="cls-14" transform="translate(58.71 40.63)"><tspan x="0" y="0">replace mi</tspan><tspan class="cls-39" x="20.96" y="0">r</tspan><tspan x="22.75" y="0">ror with a</tspan><tspan class="cls-23" x="0" y="6">w</tspan><tspan class="cls-20" x="3.48" y="6">all c</tspan><tspan class="cls-36" x="11.95" y="6">ov</tspan><tspan x="16.6" y="6">ered in plants</tspan></text>
+  <g>
+    <rect class="cls-12" x="58.71" y="51.29" width="47.36" height="8.68" rx="3.5" ry="3.5"/>
+    <polygon class="cls-12" points="102.51 59.97 106.07 64.97 106.07 56.46 102.51 59.97"/>
+  </g>
+  <text class="cls-14" transform="translate(61.78 57)"><tspan class="cls-29" x="0" y="0">A</tspan><tspan x="3.51" y="0">bbr</tspan><tspan class="cls-27" x="10.17" y="0">e</tspan><tspan x="12.27" y="0">viate…</tspan></text>
+  <g>
+    <rect class="cls-42" x="56.96" y="62.11" width="47.33" height="8.83" rx="3.5" ry="3.5" transform="translate(161.25 133.06) rotate(-180)"/>
+    <polygon class="cls-42" points="60.46 70.95 56.96 76.13 56.96 65.77 60.46 70.95"/>
+  </g>
+  <text class="cls-14" transform="translate(58.82 67.74)"><tspan x="0" y="0">c</tspan><tspan class="cls-36" x="2.22" y="0">ov</tspan><tspan x="6.87" y="0">ered in plants</tspan></text>
+  <g>
+    <polyline class="cls-11" points="207.13 4.64 207.13 1 26.73 1 26.73 10.38"/>
+    <polygon class="cls-37" points="211.12 3.48 207.13 10.38 203.14 3.48 211.12 3.48"/>
+  </g>
+  <g>
+    <line class="cls-11" x1="144.32" y1="1" x2="144.32" y2="4.64"/>
+    <polygon class="cls-37" points="140.34 3.48 144.32 10.38 148.31 3.48 140.34 3.48"/>
+  </g>
+  <g>
+    <line class="cls-11" x1="80.63" y1="1" x2="80.63" y2="4.64"/>
+    <polygon class="cls-37" points="76.64 3.48 80.63 10.38 84.61 3.48 76.64 3.48"/>
+  </g>
+  <rect class="cls-38" y="97.33" width="236.25" height="49.84" rx="4.91" ry="4.91"/>
+  <g>
+    <line class="cls-6" x1="104.08" y1="42.12" x2="110.08" y2="42.12"/>
+    <polygon class="cls-42" points="108.91 46.11 115.82 42.12 108.91 38.13 108.91 46.11"/>
+  </g>
+  <g>
+    <image width="1024" height="1024" transform="translate(186.72 102.4) scale(.04)" xlink:href="../../../Overpainting-cvpr27/figures/pipeline/trimap.webp"/>
+    <rect class="cls-3" x="186.72" y="102.4" width="40.82" height="40.82"/>
+  </g>
+  <text class="cls-13" transform="translate(121.45 29.8)"><tspan x="0" y="0">Q</tspan><tspan class="cls-33" x="5.05" y="0">w</tspan><tspan x="9.9" y="0">en Ima</tspan><tspan class="cls-24" x="29.14" y="0">g</tspan><tspan x="32.47" y="0">e 2.1</tspan></text>
+  <text class="cls-13" transform="translate(124.16 19.64)"><tspan x="0" y="0">F</tspan><tspan class="cls-26" x="3.89" y="0">L</tspan><tspan x="7.99" y="0">UX.2 Klein</tspan></text>
+  <line class="cls-4" x1="138.37" y1="23.8" x2="150.28" y2="21.8"/>
+  <text class="cls-15" transform="translate(64.29 122.81)"><tspan x="0" y="0">“c</tspan><tspan class="cls-28" x="7" y="0">o</tspan><tspan class="cls-34" x="10.36" y="0">v</tspan><tspan class="cls-21" x="13.26" y="0">e</tspan><tspan class="cls-34" x="16.37" y="0">r</tspan><tspan x="18.88" y="0">ed in</tspan><tspan x="5.84" y="8.4">plants”</tspan></text>
+  <g>
+    <line class="cls-8" x1="26.73" y1="60.67" x2="26.73" y2="96.1"/>
+    <polygon class="cls-37" points="22.74 94.93 26.73 101.84 30.72 94.93 22.74 94.93"/>
+  </g>
+  <g>
+    <use transform="translate(6.32 19.85) scale(.04)" xlink:href="#image"/>
+    <rect class="cls-3" x="6.32" y="19.85" width="40.82" height="40.82"/>
+  </g>
+  <g>
+    <line class="cls-5" x1="164.73" y1="42.12" x2="172.96" y2="42.12"/>
+    <polygon class="cls-1" points="171.79 46.11 178.7 42.12 171.79 38.13 171.79 46.11"/>
+  </g>
+  <path class="cls-18" d="M230.54,9.98h-46.81c-2.99,0-5.43,2.44-5.43,5.43v45.46c0,2.99,2.44,5.43,5.43,5.43h20.75v-.8h-20.75c-2.55,0-4.63-2.08-4.63-4.63V15.41c0-2.55,2.08-4.63,4.63-4.63h46.81c2.55,0,4.63,2.08,4.63,4.63v45.46c0,2.55-2.08,4.63-4.63,4.63h-20.75v.8h20.75c3,0,5.43-2.44,5.43-5.43V15.41c0-2.99-2.44-5.43-5.43-5.43Z"/>
+  <text class="cls-13" transform="translate(181.89 19.21)"><tspan x="0" y="0">Bi</tspan><tspan class="cls-25" x="6.61" y="0">R</tspan><tspan x="11.11" y="0">ef</tspan><tspan class="cls-30" x="16.55" y="0">N</tspan><tspan x="21.5" y="0">et (</tspan><tspan class="cls-22" x="30.63" y="0">T</tspan><tspan x="34.24" y="0">uned)</tspan></text>
+  <g>
+    <line class="cls-9" x1="207.13" y1="63" x2="207.13" y2="96.7"/>
+    <polygon class="cls-19" points="203.14 95.53 207.13 102.44 211.12 95.53 203.14 95.53"/>
+  </g>
+  <rect class="cls-2" x="178.7" y="68.3" width="56.87" height="10.81" rx="5.03" ry="5.03"/>
+  <text class="cls-13" transform="translate(182.99 75.88)"><tspan class="cls-32" x="0" y="0">T</tspan><tspan class="cls-40" x="3.93" y="0">r</tspan><tspan x="6.4" y="0">imap </tspan><tspan class="cls-35" x="22.15" y="0">A</tspan><tspan x="26.99" y="0">ugment</tspan></text>
+  <g>
+    <image width="1024" height="1024" transform="translate(186.72 22.18) scale(.04)" xlink:href="../../../Overpainting-cvpr27/figures/pipeline/mask.webp"/>
+    <rect class="cls-10" x="186.72" y="22.18" width="40.82" height="40.82"/>
+  </g>
+  <g>
+    <use transform="translate(6.32 101.84) scale(.04)" xlink:href="#image"/>
+    <rect class="cls-3" x="6.32" y="101.84" width="40.82" height="40.82"/>
+  </g>
+  <text class="cls-13" transform="translate(7.48 16.09)"><tspan x="0" y="0">Source Ima</tspan><tspan class="cls-24" x="32.07" y="0">g</tspan><tspan x="35.4" y="0">e</tspan></text>
+  <g>
+    <use transform="translate(123.91 102.4) scale(.04)" xlink:href="#image-2"/>
+    <rect class="cls-3" x="123.91" y="102.4" width="40.82" height="40.82"/>
+  </g>
+  <g>
+    <path class="cls-18" d="M109.55,74.16c0,2.55-2.08,4.63-4.63,4.63h-21.69v.8h21.69c2.99,0,5.43-2.44,5.43-5.43v-26.45h-.8v26.45Z"/>
+    <path class="cls-18" d="M104.92,9.98h-46.81c-2.99,0-5.43,2.44-5.43,5.43v58.75c0,2.99,2.44,5.43,5.43,5.43h19.81v-.8h-19.81c-2.55,0-4.63-2.08-4.63-4.63V15.41c0-2.55,2.08-4.63,4.63-4.63h46.81c2.55,0,4.63,2.08,4.63,4.63v21.8h.8V15.41c0-2.99-2.44-5.43-5.43-5.43Z"/>
+  </g>
+  <g>
+    <line class="cls-6" x1="80.63" y1="70.95" x2="80.63" y2="109.98"/>
+    <polygon class="cls-42" points="76.64 108.81 80.63 115.72 84.61 108.81 76.64 108.81"/>
+  </g>
+  <g>
+    <path class="cls-18" d="M172.36,47.84v26.32c0,2.55-2.08,4.63-4.63,4.63h-20.75v.8h20.75c2.99,0,5.43-2.44,5.43-5.43v-26.32h-.8Z"/>
+    <path class="cls-18" d="M141.67,78.79h-20.75c-2.55,0-4.63-2.08-4.63-4.63V15.41c0-2.55,2.08-4.63,4.63-4.63h46.81c2.55,0,4.63,2.08,4.63,4.63v21.93h.8V15.41c0-2.99-2.44-5.43-5.43-5.43h-46.81c-2.99,0-5.43,2.44-5.43,5.43v58.75c0,2.99,2.44,5.43,5.43,5.43h20.75v-.8Z"/>
+  </g>
+  <g>
+    <line class="cls-7" x1="144.32" y1="74.41" x2="144.32" y2="96.7"/>
+    <polygon class="cls-1" points="140.34 95.53 144.32 102.44 148.31 95.53 140.34 95.53"/>
+  </g>
+  <g>
+    <use transform="translate(123.91 33.59) scale(.04)" xlink:href="#image-2"/>
+    <rect class="cls-3" x="123.91" y="33.59" width="40.82" height="40.82"/>
+  </g>
+  <rect class="cls-2" x=".82" y="82.93" width="234.75" height="10.59" rx="5.03" ry="5.03"/>
+  <text class="cls-13" transform="translate(100.33 90.35)"><tspan class="cls-30" x="0" y="0">F</tspan><tspan x="3.79" y="0">ilte</tspan><tspan class="cls-41" x="12.73" y="0">r</tspan><tspan class="cls-17" x="15.2" y="0">ing</tspan></text>
+</svg>

@@ -58,12 +58,23 @@
   }
 }
 
-#let paper-image(path, alt, format: "svg", ppi: 288, max-height: none) = context html.img(
-    src: asset.typst(path, format: format, ppi: ppi).url(),
+// Paper figures share one scale (CSS px per figure pt) so their frames and text look alike: a textwidth figure
+// page (496pt, `figpage` in assets/theme.typ) fills the 1088px `.paper-figure` content box of the widest layout
+// (`$figure-px-per-pt` in sass/site.scss). Each image is declared at the pixel density that gives that scale;
+// narrower screens shrink it.
+#let figure-px-per-pt = 1088 / 496
+
+// A paper figure: a `.typ` source is rendered by typst at `ppi`; anything else (e.g. an Illustrator PNG) is used
+// as is, `ppi` being its export resolution.
+#let paper-image(path, alt, ppi: 288) = context {
+  let url = if path.ends-with(".typ") { asset.typst(path, format: "png", ppi: ppi) } else { asset.file(path) }.url()
+  html.elem("img", attrs: (
+    src: url,
+    srcset: url + " " + str(ppi / 72 / figure-px-per-pt) + "x",
     alt: alt,
     loading: "lazy",
-    style: if max-height != none { "max-height: " + str(max-height) + "em;" } else { "" },
-)
+  ))
+}
 
 #let project-heading(it) = html.div(
   class: "section-heading",

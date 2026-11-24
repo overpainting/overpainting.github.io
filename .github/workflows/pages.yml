@@ -24,6 +24,8 @@ jobs:
         uses: actions/configure-pages@v6
       - name: Download Twyla
         run: curl -sSL https://github.com/samsartor/twyla/releases/download/latest/twyla-x86_64-unknown-linux-gnu.tar.gz | tar xz
+      - name: Install figure fonts
+        run: mkdir -p ~/.local/share/fonts && cp fonts/*.otf ~/.local/share/fonts/
       - name: Build
         run: ./twyla build --root . --base-url "${{ steps.pages.outputs.base_url }}"
       - uses: actions/upload-pages-artifact@v4

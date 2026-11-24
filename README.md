@@ -27,7 +27,9 @@ To refresh the vendored manuscript figures and test-set metadata:
 ./sync-paper-assets.sh /path/to/Overpainting-submission
 ```
 
-The figure `.typ` sources are compiled to SVGs by Twyla during the site build. The teaser social-preview image remains a high-resolution PNG.
+The figure `.typ` sources are compiled to PNGs by Twyla during the site build.
+
+<!-- TODO: sync-paper-assets.sh does not exist (figures now come from Overpainting-cvpr27/figures); document fonts/ (TeX Gyre Termes + STIX Two Math, needed locally and installed in CI), scripts/*.ts (bundled by asset.js), and static/maskgrid/ + data/maskgrid.json (from ../overpainting generatesupplemental). -->
 
 ## Editorial handoff
 

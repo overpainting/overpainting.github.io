@@ -173,7 +173,4 @@
   })
 })
 
-#html.elem("script", attrs: (
-  src: base-url + "/scripts/results.js",
-  defer: "",
-))[]
+#context html.script(type: "module", src: asset.js("/scripts/results.ts").url())

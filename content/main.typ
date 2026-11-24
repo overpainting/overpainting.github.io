@@ -22,6 +22,34 @@
 #show heading.where(level: 2): project-heading
 #show figure: project-figure
 
+// Sliding-mask figure, driven by /scripts/maskgrid.ts: one panel per grid in /data/maskgrid.json, its
+// images under /static/maskgrid/<name>/.
+#let maskgrid-size = "512"
+#let maskgrid-panels(grids) = html.div(class: "maskgrid-panels", for g in grids {
+  let dir = base-url + "/maskgrid/" + g.name
+  let stem = g.stems.at(g.start.at(1)).at(g.start.at(0))
+  // Only strings and integers are read here: the script imports the JSON itself (see there for why).
+  html.elem("div", attrs: (class: "maskgrid-panel", "data-name": g.name), {
+    html.elem("img", attrs: (
+      class: "maskgrid-result",
+      src: dir + "/" + stem + ".avif",
+      width: maskgrid-size,
+      height: maskgrid-size,
+      fetchpriority: "high",
+      decoding: "async",
+      alt: "Overpainting result for “" + g.prompt + "”",
+    ))
+    html.div(class: "maskgrid-inset", html.elem("img", attrs: (
+      class: "maskgrid-trimap",
+      src: dir + "/" + stem + ".trimap.png",
+      width: maskgrid-size,
+      height: maskgrid-size,
+      decoding: "async",
+      alt: "Trimap",
+    )))
+  })
+})
+
 #html.elem("header", attrs: (class: "hero"), {
   html.h1[Overpainting]
   html.p(class: "subtitle")[Localized Context-aware Diffusion Image Editing]
@@ -41,8 +69,15 @@
       "A source image followed by five localized overpainting edits, each with a trimap inset.",
     ),
     caption: [
-      A sequence of localized overpainting edits. Gray represents areas where
-      change may occur and white represents areas where change must occur.
+      A sequence of localized overpainting edits.
+    ],
+  )
+
+  #figure(
+    maskgrid-panels(json("/data/maskgrid.json")),
+    caption: [
+      An example of Overpainting edits with the same trimap moved to different
+      locations. Hover to interact.
     ],
   )
 ]
@@ -50,17 +85,18 @@
 #html.elem("section", attrs: (class: "section narrow", id: "abstract"))[
 == Abstract
 
-We present "overpainting", an image editing operation which offers both control
+We present “overpainting”, an image editing operation which offers both control
 over the location of the edit and awareness of the previous content in that
-location. The overpainted area is given by a trimap, where white-annotated
+location. The overpainted area is specified by a trimap, where white-annotated
 pixels must be edited, gray-annotated pixels may be edited, and black-annotated
 pixels must not be edited. This enables both precise and loose control,
 depending on user intent.
 
 We implement overpainting by adapting a pretrained image editing diffusion
-model using a combination of joint attention and low-rank adaption across input
-images with attention-dropout to balance the information flow between noise,
-source and mask images. We present a novel, automated, training data generation
+model by augmenting the pretrained models' native joint-attention with a
+variant of Teamwork that performs low-rank adaptation across image-streams
+and that balances information flow between noise, source, and trimap mask
+images. Furthermore, we present a novel, automated, training data generation
 pipeline that (1) generates a set of candidate image pairs leveraging existing
 language-based editing models, (2) carefully curates those pairs, and (3)
 extracts a trimap from each usable pair. We demonstrate the versatility of our
@@ -87,11 +123,14 @@ pixels that _may or may not_ be edited #html.span(class: "swatch gray")[ ].
     "The same source edited with several precise and approximate trimaps.",
   ),
   caption: [
-    Trimap variations on an image of an apple with the prompt _"wrapped in black
-    twine"_. The user can place individual twines by drawing thin white lines,
-    control some twine placement but also leave the model free to add/remove
-    extra, or mark the entire apple white and force the model to cover it
-    entirely.
+    Adding _"shaggy purple fur"_ to an apple requires
+    a detailed binary mask (2nd column); without a detailed mask,
+    the protruding whiskers of fur will be missing (3rd column).
+    Marking a whole region as may-edit #html.span(class: "swatch gray")[ ],
+    alleviates the user from specifying a precise mask (4th column).
+    By combining both white #html.span(class: "swatch white")[ ] and
+    gray #html.span(class: "swatch gray")[ ] regions, the user caan create both
+    precise and loose boundaries in the same image (5th column).
   ],
 )
 
@@ -102,16 +141,17 @@ original image, an edited version, a mask, and a prompt describing the edit
 operation. We follow the well-established process of leveraging VLMs and image
 diffusion models to generate training data. Specifically, we:
 + randomly sample freely licensed photographs from #link("https://pexels.com")[pexels.com] as source photographs
-+ use #link("https://arxiv.org/abs/2502.13923")[Qwen2.5-VL] to suggest edit prompts
-+ feed the source images and generated propts into #link("https://bfl.ai/models/flux-kontext")[FLUX.1 Kontext] to produce edited photographs
++ use #link("https://huggingface.co/Qwen/Qwen3-30B-A3B-Instruct-2507")[Qwen3 Instruct] to suggest edit prompts
++ feed the source images and generated prompts into #link("https://huggingface.co/black-forest-labs/FLUX.2-klein-9B")[FLUX.2 Klein] or #link("https://huggingface.co/Qwen/Qwen-Image-2.1")[Qwen Image 2.1] to produce edited photographs
 + filter out over-edited, under-edited, and misaligned results
 + estimate which pixels were actually edited using an adapted #link("https://huggingface.co/ZhengPeng7/BiRefNet")[BiRefNet] finetune
 + degrade the precise binary masks into human-like trimaps
 
 #figure(
   paper-image(
-    "/assets/pipeline/pipeline.typ",
+    "/assets/pipeline/pipeline_flat.png",
     "Overview of the training data generation pipeline.",
+    ppi: 300, // Illustrator export resolution
   ),
   caption: [
     Overview of the training data generation pipeline.
@@ -120,10 +160,11 @@ diffusion models to generate training data. Specifically, we:
 
 == Finetuning
 
-We demonstrate overpainting by finetuning a
-#link("https://arxiv.org/abs/2510.05532")[Teamwork LoRA] for the
-#link("https://bfl.ai/models/flux-kontext")[FLUX.1 Kontext] model. Base FLUX
-Kontext accepts a prompt, latents for any number of condition images, and noisy
+We demonstrate overpainting by finetuning
+#link("https://arxiv.org/abs/2510.05532")[Teamwork LoRAs] for the
+#link("https://huggingface.co/black-forest-labs/FLUX.2-klein-9B")[FLUX.2 Klein] and
+#link("https://huggingface.co/Qwen/Qwen-Image-2.1")[Qwen Image 2.1] models.
+The image editing diffusion models accept a prompt, latents for any number of condition images, and noisy
 latents for the image to generate. We provide both the source image and trimap
 image as VAE-encoded conditions.
 
@@ -132,15 +173,13 @@ user-provided trimap. By using a Teamwork LoRA, we impose a strong positional
 bias (#ie, edited image latents at a particular position exchange information
 directly with the correspoinding source latents and mask latents). On the other
 hand, Teamwork alone allows limited global reasoning, and so provides poor
-edit quality. We therefore use _both_ the attention of the base FLUX model and
-the aggredation of the Teamwork LoRAs, and balance between them with attention
-dropout during training.
+edit quality. We therefore use _both_ the attention of the base editing model and
+the aggredation of the Teamwork LoRAs.
 
 #figure(
   paper-image(
     "/assets/arch/arch.typ",
     "Architecture overview.",
-    max-height: 30,
   ),
   caption: [
     Architecture overview. We pass the source image
@@ -179,3 +218,5 @@ available once published.
   pill("Result viewer", href: base-url + "/results/", target: "_self")
 })
 ]
+
+#context html.script(type: "module", src: asset.js("/scripts/maskgrid.ts").url())
